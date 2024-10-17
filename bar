@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p output
+rm output/*
+
+gcc three.c -std=c99 -lraylib -o output/three.bin
+./output/three.bin
